@@ -1,0 +1,15 @@
+.pre,pre{
+    font-family:Times New Roman;
+    background-color: yellowgreen;
+}
+h2{
+ color: rgba(242, 128, 6, 0.875);
+     background-color: aqua;
+
+}
+p,ul{
+    background-color: aquamarine;
+}
+marquee{
+     color: blue;
+}
