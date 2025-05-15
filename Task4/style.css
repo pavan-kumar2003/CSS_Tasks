@@ -1,0 +1,142 @@
+ 
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    height: 80vh;
+    border: 1px solid black;
+    margin: auto;
+    width: 300px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    position: relative;
+    background: url('image.png');
+
+
+}
+
+.header-section {
+    background-color: rgb(145, 235, 158);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    
+    position: sticky;
+    top: 0;
+
+}
+.footer-sec{
+    width: 100%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 30px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.head-left,
+.head-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+
+.profile-pic {
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.head-right .d1,
+.head-left .d1 {
+    margin: 5px;
+    
+}
+
+i {
+    color: #130101;
+}
+.i-color{
+    color: rgb(26, 77, 132);
+    font-size: 10px;
+}
+
+.a1 {
+    background-color: #100a0a;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.date {
+    background-color: antiquewhite;
+    border-radius: 1%;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding: 2% 0;
+    position: sticky;
+    top: 10vh;
+}
+
+.right{
+    text-align: right;
+    
+}
+
+.right,
+.left {
+    padding: 1%; 
+    margin: 2px;
+
+}
+.right span{
+      border-top-right-radius: 40px;
+    border-bottom-right-radius: 0px;
+}
+
+span {
+    display: inline-block;
+    background-color: #e6e0e0;
+    padding: 5px;
+    border-radius: 10px;
+  
+    text-align: center;
+    font-size: 13px;
+}
+
+.record {
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.record i {
+    position: absolute;
+    top: 33%;
+    left: 33%;
+
+}
+
+.foot-i {
+    color: rgb(88, 87, 87);
+    margin: 5px;
+}
+
+input {
+    outline: none;
+    width: 40%;
+    border: none;
+}
+  
